@@ -1,9 +1,9 @@
-# Install Openshift 4.7.4 on AWS (Internal Red Hat)
+# Install Openshift 4.y.z on AWS (Internal Red Hat)
 OpenShift 4 AWS Installation IPI at OpenTLC 
 
 ### Prerequisite
 1. Login opentlc
-2. Order Catalog > OPENTLC Openshift 4 Labs > Openshift 4 Installation Lab
+2. Order Catalog > OPENTLC Openshift 4 Labs > OpenShift 4 Advanced Infra Deploy ILT
 
 ### Step 1: Login to bastion host (provided on Opentlc's Email)
 ```bash
@@ -11,7 +11,7 @@ OpenShift 4 AWS Installation IPI at OpenTLC
 ```
 ### Step 2: Clone Preparation script from Git and Change below parameter
 ```bash
-> git clone https://github.com/okkyhtf/ocp4-at-opentlc.git
+> git clone https://github.com/hariwi/ocp4-at-opentlc.git
 > cd ocp4-at-opentlc/
 > vim prepare-openshift-installer.sh
 ```
